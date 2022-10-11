@@ -1,2 +1,4 @@
 # desafio_dio
-Criando um repositório para guardar as minhas anotações sobre o bootcamp da NTT Data Diversidade em Tech.
+Seja bem vindo ao meu repositório que foi criado para guardar as minhas anotações sobre bootcamp da NTT Data Diversidade em Tech!!
+
+<p>:smiley:</p>
