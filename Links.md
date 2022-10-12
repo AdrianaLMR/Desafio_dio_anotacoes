@@ -10,4 +10,10 @@ https://gist.github.com/rxaviers/7360908
 :link: Link sobre Portugol: :heavy_exclamation_mark: <br>
 https://portugol-webstudio.cubos.io/ide
 
+ :link: Link sobre HTML: :heavy_exclamation_mark: <br>
+ https://www.w3schools.com/tags
+ 
+  :link: Link sobre CSS: :heavy_exclamation_mark: <br>
+[ https://www.w3schools.com/tags](https://www.w3schools.com/css/)
+ 
 </p>
