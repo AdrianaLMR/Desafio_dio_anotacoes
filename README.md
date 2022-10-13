@@ -1,4 +1,5 @@
-# desafio_dio
-Seja bem vindo ao meu repositório que foi criado para guardar as minhas anotações sobre bootcamp da NTT Data Diversidade em Tech!!
+#Receita de bolo!!
+
+<p>Fiz esse repositório para praticar as tags HTML e CSS utilizadas no bootcamp da Dio.</p> 
 
 <p>:smiley:</p>
