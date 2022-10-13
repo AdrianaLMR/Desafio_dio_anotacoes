@@ -1,5 +1,5 @@
-#Receita de bolo!!
+#Desafio_dio
 
-<p>Fiz esse repositório para praticar as tags HTML e CSS utilizadas no bootcamp da Dio.</p> 
+<p>Criando um repositório para guardar as minhas anotações sobre o bootcamp da NTT Data Diversidade em Tech.</p> 
 
 <p>:smiley:</p>
