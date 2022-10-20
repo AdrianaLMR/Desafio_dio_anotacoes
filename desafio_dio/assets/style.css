@@ -217,3 +217,22 @@ span{
     margin-left: 400px;
     font-size: 30px;
 }
+.post_tag_midia{
+    background:rgb(231, 201, 201);
+    padding: 15px;
+    border:solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+}
+#title_tag_midia{
+    margin-left: 400px;
+    font-size: 30px;
+}
+#img_jpg{
+    width: 200px;
+    height: 200px;
+}
+#img_png{
+    width: 200px;
+    height: 200px;
+}
