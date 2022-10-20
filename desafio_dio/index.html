@@ -63,7 +63,7 @@
                 </li>
             </ul>
         </div>
-        <div class="post_grandesNomes">
+        <div class="post_conteudos">
             <h1 id="grandesNomes">Grandes nomes</h1>
             <ol>
                 <li><p>
@@ -93,19 +93,18 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div> 
-        <br>
-        <div class="post_pensamento_computacional">
+        <div class="post_conteudos">
             <h1 id="title_pensamento_computacional">Pensamento Computacional</h1>
                 <img src ="assets/imagens/img_pensamento_computacional.jpg" alt = "Mapa mental sobre pensamento computacional"class = "img_pensamento_computacional">
             <br> <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_raciocinio_logico">
+        <div class="post_conteudos">
             <h1 id="title_raciocinio_logico">Raciocínio Lógico</h1>
             <img src ="assets/imagens/img_raciocio_logico.jpg" alt = "Mapa mental sobre Raciocinio Lógico" class = "img_raciocinio_logico">
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_Client">
+        <div class="post_conteudos">
             <h1 id="title_conceito_client">Conceito Client</h1>
             <p>
                 Conceito de client: é  o dispositivo que esta consumindo a informação da internet, se comunicam atraves dainternet com outros computadores.
@@ -116,7 +115,7 @@
             </p>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_navegadores">
+        <div class="post_conteudos">
             <h1 id="title_navegadores">Navegadores</h1>
             <p>
                 Os navegadores também conhecidos como Browsers são programas que instalamos no computador, ele é uma ferramentaque vai interpretar os os arquivos que vem do servidor.
@@ -126,7 +125,7 @@
             </p>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_cores">
+        <div class="post_conteudos">
             <h1 id="title_cores">Cores</h1>
             <p>Cores no navegador</p>
             <ul>
@@ -149,7 +148,7 @@
            </ul>
            <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_fieldset">
+        <div class="post_conteudos">
            <h1 id="title_fieldset">Tag Fieldset</h1>
            <p>A tag fieldset é usado para agrupar todos os controles do formulário para dar uma aparência estruturada.</p>
            <fieldset>
@@ -165,7 +164,7 @@
            </fieldset>
            <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_font">
+        <div class="post_conteudos">
             <h1 id="title_tag_font">Tag font</h1>
             <p>
                 Falando sobre a tag <font color="red" face="arial">Font</font>
@@ -178,38 +177,44 @@
             </p>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_embed">
+        <div class="post_conteudos">
             <h1 id="title_tag_embed">Tag embed</h1>
             <p>
-                A tag embed serve para quando queremos carregar uma midia externa no nosso texto, (aúdio, video,pluggin..)
+                A tag embed serve para quando queremos carregar uma midia externa no nosso texto, (aúdio, vídeo,pluggin..)
             </p>
-            <embed width="400" height="250">
-           <!-- Adicionar dentro da tag embed src="assets/videoBunny.mp4" -->
-           <p>Atualmente se utiliza a tag video e seus atributos para adicionar videos, pois embed é muito antigo já e pode ser mais de um elemento. Na tag embed percebemos uma diferença na de video, o fundo da tag embed é preto  e o da tag video branco.</p>
+            <!-- <embed width="400" height="250" src="assets/imagens/videoBunny.mp4"> -->
+           <p>Atualmente se utiliza a tag vídeo e seus atributos para adicionar vídeos, pois embed é muito antigo já e pode ser mais de um elemento. Na tag embed percebemos uma diferença na de vídeo, o fundo da tag embed é preto  e o da tag vídeo branco.</p>
            <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_tag_video">
+        <div class="post_conteudos">
             <h1 id="title_tag_video">Tag Vídeo</h1>
+            <p>
+                A tag vídeo nos possibilita colocar vídeos no nosso site, atraves da tag vídeo e sua tag filha source, alguns navegadores podem não ser compativel com vídeo tipo mp4, nesses cassos você deve colocar uma segunda opção com o tipo .webm.
+            </p>
             <p>
                 A baixo um vídeo fofinho da minha gata pedindo pra soltar ela, fazendo manha derrubando o lixo kkk
             </p>
             <video controls  width="400" height="250">
                 <source src="assets/imagens/videoBunny.mp4">
+                <source src="assets/imagens/videoBunny.webm">
+                Seu navegador não tem suporte para vídeo.
             </video>
             <p>
                 Os fremeset  eram trechos colocados no HTML onde os contéudos na verdade eram paginas html separadas mas unidas formando um site inteiro.
             </p>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_tag_iframe">
+        <div class="post_conteudos">
             <h1 id="title_tag_iframe">Tag iframe</h1>
             <h2>Embed vs iframe</h2>
             <p>Devemos tomar cuidado com esa tag pois ela afeta a segurança do site, ele permite abrir uma janela na nossa página com conteúdo de outra página, ela faz oque a tag embed faz  mas com mais opções.</p>
             <iframe src="http://dio.me" width="500" height="200"></iframe>
             <br>
+            <p> Abaixo está um vídeo do youtube(compartilhar vídeo-incorporar, crtl c, crtl v na tag iframe)</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WYeAUpvWeI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_select_tipos">
+        <div class="post_conteudos">
             <form>
                 <h1 id="title_select_tipos"> Select e seus tipos.</h1>
                 <p>
@@ -231,7 +236,7 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_textarea">
+        <div class="post_conteudos">
             <form>
                 <h1 id="title_textarea">Textarea</h1>
                 <p>Campo onde pode ser inserido mais de uma linha só, é um campo de texto e pode ser aumentado.</p>
@@ -246,7 +251,7 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_tag_button">
+        <div class="post_conteudos">
             <form method="get">
                 <p>O onsubmit na tag form vai validar o formulário antes de enviar.</p>
                 <h1 id="title_tag_button">Tag button:</h1>
@@ -270,7 +275,7 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_checkbox_radio">
+        <div class="post_conteudos">
             <form method="get">
                 <h1 id="title_checkbox_radio">Checkbox e Radio</h1>
                 <p>A tag disable utilizamos quando não queremos que certo elemento seja selecionado, é como se tivese em falta, quando precisar enviar mais de um elemento e precise que o backend entenda você deve colocar o nome como opcional mas o importante é colocar os [] pra informar que é uma list de valores (method=get)</p>
@@ -295,7 +300,7 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_tag_input">
+        <div class="post_conteudos">
             <form name="signup" onsubmit="alert('Formulário enviado!!');" method="off" target="_blank" method="post" action="https://meusite.com.br/signup">
                 <h1 id="title_tag_input">Tag input  </h1>
                 <labe>Digite aqui:</labe><input type="text"/><br><hr>
@@ -337,7 +342,7 @@
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
         </div>
-        <div class="post_tag_midia">
+        <div class="post_conteudos">
             <h1 id="title_tag_midia"> Tags de mídia</h1>
             <p>Mídia se refere a tudo que é de som ou imagem e suas extensões.</p>
             <ul>
@@ -372,26 +377,50 @@
                     -725z"/>
                     </g>
                     </svg>
+                    <p>Não devemos esquecer de de dois aributos da tag img, o title e o alt, o atributo title mostra um balão com um título, podendo ser a descrição como logo, a tag alt é uma descrição da nossa imagem para a acessibilidade.</p>
+                    <br>
+                    <img id="img_png" title="Mickey Mouse" alt="Personagem da disney o Mickey Mouse( Rato fofo vestindo roupas)" src="assets/imagens/mickei21232323.png" > 
                 </li>
                 <li>
                     <h3>Tag audio</h3>
-                    <p></p>
+                    <p>Ela é a evolução da embed, ela é apenas para aúdio, não aceita outros tipos, a tag carrega a história, que seria a semântica. Ela reproduz um arquivo de aúdio na nossa página, e dependendo do navegador pode não ser reproduzido e a sua aparencia também é diferente.</p>
+                    <p>Caso o navegador não tenha suporte para reproduzir o aúdio escreva abaico do source "O seu navegador não tem suporte para o aúdio."</p>
+                    <br>
+                    <audio controls>
+                        <source src="assets/imagens/musica.mp4"/>
+                        <source src="assets/imagens/musica.webm"/>
+                    </audio>
+                    <br>
+                    O seu navegador não tem suporte para o aúdio.
                 </li>
                 <li>
-                    <h3>Tag video</h3>
-                    <p></p>
+                    <h3>Tag vídeo</h3>
+                    <small><a href="#title_tag_video">Tag vídeo</a></small>
                 </li>
                 <li>
                     <h3>Tag track</h3>
-                    <p></p>
+                    <p>A tag é a legenda do nosso vídeo, ela é utilizada dentro da tag vídeo, podemos definir vários tipos de legenda, os chapters são capítulos que colocamos no nosso vídeo, criamos um arquivo texto tipo vtt onde está escrito quando inicia e termina determinado momento do video e sua descrição.</p>
+                    <p>A tag strack possui um atributo chamado kind que é importante na acessibilidade, </p>
+                    <br>
+                    <video controls>
+                        <source src="assets/imagens/videoBunny.mp4"/>
+                        <source src="assets/imagens/videoBunny.webm"/>
+                        <strack src="assets/legend.vtt" kind="captions" srclang="en"/>
+                        <strack default src="assets/legend.pt.br.vtt" kind="captions" srclang="pt"/>
+                        <!--O default vai fazer com que a legenda em português sejaa padrão-->
+                        <!--No meunão vai funcionar, ainda não sei o porque mas acrdito  que seja por do vídeo.-->
+                    </video>
                 </li>
                 <li>
                     <h3>Tag iframe</h3>
-                    <p></p>
+                    <small><a href="#title_tag_iframe">Tag vídeo</a></small>
                 </li>
             </ul>
             <br>
             <small><a href="#title_indice">Voltar ao índice</a></small>
+        </div>
+        <div class="post_conteudos">
+            <h1 title="title_tabelas">Tabelas</h1>
         </div>
     </body>
 </html>
