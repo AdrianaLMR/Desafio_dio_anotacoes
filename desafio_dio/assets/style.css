@@ -26,16 +26,9 @@ span{
     border-radius: 5px;
     float: left;
     width: 300px;
+    background: #FFFAFA;
     background:rgb(231, 201, 201);
     margin-left: -350px;
-}
-.post_conteudos{
-    background:rgb(231, 201, 201);
-    padding: 15px;
-    border:solid black 3px;
-    margin-bottom: 15px ;
-    border-radius: 5px;
-    margin-top: 35px;
 }
 .tags_marks{
     background-color: aliceblue;
@@ -61,10 +54,12 @@ span{
     border:solid rgb(219, 6, 155) 3px;
 }
 #title_conceito_client{
+    margin-left: 500px;
     margin-left: 400px;
     font-size: 30px;
 }
 #title_navegadores{
+    margin-left: 500px;
     margin-left: 400px;
     font-size: 30px;
 }
@@ -112,15 +107,11 @@ span{
     margin-left: 400px;
     font-size: 30px;
 }
-#title_tag_midia{
-    margin-left: 400px;
-    font-size: 30px;
-}
-#img_jpg{
-    width: 200px;
-    height: 200px;
-}
-#img_png{
-    width: 200px;
-    height: 200px;
+.post_conteudos{
+    background:rgb(231, 201, 201);
+    padding: 15px;
+    border:solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+    margin-top: 35px;
 }
