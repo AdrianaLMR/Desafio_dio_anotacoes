@@ -16,6 +16,31 @@ span{
 .row{
     margin:5px;
 }
+.tabela1  tr:nth-child(even){
+    background-color: #FFFAFA;
+   
+}
+.tabela1 tr:hover td {
+ background-color: rgb(247, 20, 216);
+}
+.tabela2{
+    border:solid  2px;
+    cursor: pointer;
+    -webkit-box-shadow: 33px -20px 18px 0px rgba(0,0,0,0.82);
+    -moz-box-shadow: 33px -20px 18px 0px rgba(0,0,0,0.82);
+    box-shadow: 33px -20px 18px 0px rgba(0,0,0,0.82);
+}
+.tabela2 th{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.tabela2 tfoot td{
+    background-color: gray;
+    color: black;
+}
+.tabela2 tbody tr:nth-child(even) td {
+    background: darkgrey;
+}
 #Title{
     margin-left: -350px;
 }
